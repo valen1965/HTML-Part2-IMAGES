@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolution</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/resolution.css">
+</head>
+<body>
+    <img 
+        src="images/meal-ful_1400.jpg"
+        alt="A bowl of salmon and curry" 
+        class="meal" 
+    
+       /// /* download from https://responsivebreakpoints.com/ */
+
+    srcset="
+        images/meal-full_200.jpg 200w,
+        images/meal-full_607.jpg 607w,
+        images/meal-full_875.jpg 875w,
+        images/meal-full_1149.jpg 1149w,
+    "
+ 
+    sizes="
+        (max-width: 500px) 100vw,
+        (max-width: 900px) 50vw,
+        33vw
+    "
+    />
+</body>      
+</html>
