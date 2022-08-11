@@ -1,0 +1,42 @@
+.bg--dishes {
+    background-image: url(../images/spritesheet.png);
+    width: 100px;
+    height: 100px;
+    background-position: 0px -5px;
+    display: inline-block;
+}
+
+.bg--landing {
+    background-image: url(../images/spritesheet.png);
+    width: 100px;
+    height: 100px;
+    background-position: -115px -5px;
+    display: inline-block;
+}    
+
+
+.bg--rocketship {
+    background-image: url(../images/spritesheet.png);
+    width: 100px;
+    height: 100px;
+    background-position: -225px -5px;
+    display: inline-block;
+}
+
+
+.bg--saturn {
+    background-image: url(../images/spritesheet.png);
+    width: 100px;
+    height: 100px;
+    background-position: -335px -5px;
+    display: inline-block;
+}
+
+
+.bg--ufo {
+    background-image: url(../images/spritesheet.png);
+    width: 100px;
+    height: 100px;
+    background-position: -445px -5px;
+    display: inline-block;
+}

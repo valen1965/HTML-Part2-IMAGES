@@ -1,0 +1,21 @@
+body {
+    /*  ../ - to go one level up */
+    background: url(../Images/bg-sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    /* -- background-repeat: repeat-x -- to repeat horizontally 
+    and background-repeat: repeat-y -- to repeat vertically*/
+    
+    /*background-position: 100px 100px;*/
+
+    /* relavive valuse can also be used 
+    --background-position: 100% 100% -- */
+
+    /*background-size:100% 300vh;*/
+
+    /* -- backgorund-size: cover; -- will fill thje entire container 
+    while keeping its aspect ration -- */
+    
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300vh;
+}
