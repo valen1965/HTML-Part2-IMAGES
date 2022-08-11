@@ -1,0 +1,23 @@
+/*  TERMS
+
+1. Physical resolution 
+which is based on actual number of pixels on the device ( 860 x 640 )
+
+2. Logical resolution
+which is basically how we behave ( logical 480 x 320 )
+
+CSS is always based on the logical resolution
+
+Devices have anothetr proprty called 
+DPR - whic stands for Device Pixel Ratio 
+
+DPR is the a ratio   -  Physical / Logical
+
+For Instance iPhone 4 has DPR = 2
+however different devices have different DPRs
+
+High Density Screen is the screen with DPR > 1 */
+
+.meal {
+    width: 400px;
+}
